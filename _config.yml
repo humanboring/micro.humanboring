@@ -1,0 +1,22 @@
+title: Human Boring Micro
+email: me@humanboring.net
+description: Shorter thoughts from a boring person
+baseurl:
+url: https://micro.humanboring.net
+locale: en-uk
+twitter_username: humanboring
+
+
+
+# Build settings
+markdown: kramdown
+theme: jekyll-athena-micro
+plugins:
+  - s3_website
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - s3_website.yml
+  - deploy.sh
